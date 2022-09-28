@@ -19,3 +19,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 - 清除过时的列表项
 - 清除下位替代，改为上位替代。
 - 同一个主题领域的推荐项不能过多。例如python爬虫领域，则此领域推荐项必须受到数量限制。
+
+## python
+### python packag
+- [Publishing Python Packages](https://book.douban.com/subject/35662780/) - 开发 python package 的入门参考指南。`year:2022` `page:275` `topic:python package` `level:low`
