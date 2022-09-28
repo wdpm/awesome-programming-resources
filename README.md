@@ -41,7 +41,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 
 - [代码本色：用编程模拟自然系统](https://book.douban.com/subject/26264736/) - 一份浪漫的代码艺术，使用p5.js模拟自然系统。`year:2014`
 
-  `page:401` `topic:
+  `page:401` `topic: computer visualization` `level:low`
 
 
 
