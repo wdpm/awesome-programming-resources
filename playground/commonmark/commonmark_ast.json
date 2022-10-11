@@ -1,0 +1,159 @@
+[
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "heading"
+            },
+            {
+                "literal": "TODO",
+                "type": "text"
+            }
+        ],
+        "type": "document"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "heading"
+            },
+            {
+                "literal": "[",
+                "type": "text"
+            },
+            {
+                "literal": "?",
+                "type": "text"
+            },
+            {
+                "literal": "]",
+                "type": "text"
+            },
+            {
+                "literal": " \u683c\u5f0f\u66f4\u52a0\u7cbe\u7b80\u7684\u53ef\u6298\u53e0\u5217\u8868",
+                "type": "text"
+            }
+        ],
+        "type": "heading"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "heading"
+            },
+            {
+                "literal": "\u9700\u6c42\u63cf\u8ff0",
+                "type": "text"
+            }
+        ],
+        "type": "heading"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "paragraph"
+            },
+            {
+                "literal": "\u5c06\u4e0b\u9762\u8fd9\u4e2a\u683c\u5f0f",
+                "type": "text"
+            }
+        ],
+        "type": "heading"
+    },
+    {
+        "children": [
+            {
+                "info": "markdown",
+                "literal": "- [Functional-Light JavaScript](https://book.douban.com/subject/35002560/) - JavaScript \u4e2d\u5e73\u8861\u3001\u5b9e\u7528\u7684 FP\u3002`year:2017` `page:388` `topic: functional programming` `level: medium`\n",
+                "type": "code_block"
+            },
+            {
+                "children": [],
+                "type": "paragraph"
+            },
+            {
+                "literal": "\u8f6c\u5316\u4e3a",
+                "type": "text"
+            }
+        ],
+        "type": "paragraph"
+    },
+    {
+        "children": [
+            {
+                "info": "html",
+                "literal": "<details>\n<summary>\n <a href=\"https://book.douban.com/subject/35002560/\">Functional-Light JavaScript</a>\n</summary>\nJavaScript \u4e2d\u5e73\u8861\u3001\u5b9e\u7528\u7684 FP\u3002<code>year:2017</code> <code>page:388</code> <code>topic: functional programming</code> <code>level: medium</code>\n</details>\n",
+                "type": "code_block"
+            },
+            {
+                "children": [],
+                "type": "heading"
+            },
+            {
+                "literal": "\u5b9e\u73b0\u601d\u8def",
+                "type": "text"
+            }
+        ],
+        "type": "paragraph"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "type": "paragraph"
+            },
+            {
+                "literal": "\u5217\u8868\u9879\u6e90\u683c\u5f0f\uff1a",
+                "type": "text"
+            }
+        ],
+        "type": "heading"
+    },
+    {
+        "children": [
+            {
+                "info": "markdown",
+                "literal": "- [book_title](book_link) - book_comment [year:XXXX] [page:XXX] [topic:XXXX] [level:XXXX]\n",
+                "type": "code_block"
+            },
+            {
+                "children": [],
+                "type": "paragraph"
+            },
+            {
+                "literal": "\u5217\u8868\u9879\u6e32\u67d3\u683c\u5f0f\uff1a",
+                "type": "text"
+            }
+        ],
+        "type": "paragraph"
+    },
+    {
+        "children": [
+            {
+                "info": "html",
+                "literal": "<details>\n<summary>\n <a href=\"{{book_link}}\">{{book_title}}</a>\n</summary>\n{{book_comment}} <code>year:{{year}}</code> <code>page:{{page}}</code> <code>topic:{{topic}}</code> <code>level:{{level}}</code>\n</details>\n",
+                "type": "code_block"
+            },
+            {
+                "children": [],
+                "type": "paragraph"
+            },
+            {
+                "literal": "\u53ef\u4ee5\u4f7f\u7528python jinjia2\u6a21\u7248\u5e93\u6765\u5904\u7406\u3002f string\u4e5f\u662f\u53ef\u884c\u7684\u5904\u7406\u65b9\u6848\u3002",
+                "type": "text"
+            }
+        ],
+        "type": "paragraph"
+    },
+    {
+        "children": [],
+        "type": "paragraph"
+    },
+    {
+        "children": [],
+        "type": "document"
+    }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "awesome-programming-resources",
+  "version": "1.0.0",
+  "dependencies": {
+    "marked-ast": "^0.3.0",
+    "marked-ast-markdown": "^2.1.0"
+  }
+}
