@@ -71,7 +71,7 @@ class MarkdownParser:
         parsed = mistletoe.markdown(text, ASTRenderer)
         return parsed
 
-    def parse_to_dict(self, text: str) -> list:
+    def parse(self, text: str) -> list:
         ast_str = self._parse_to_ast(text)
         # ast str(as json) -> dict object
         ast_dict = json.loads(ast_str)
@@ -219,8 +219,7 @@ if __name__ == '__main__':
 
     # file str -> custom list
     markdown_parser = MarkdownParser()
-    arr = markdown_parser.parse_to_dict(content)
-    print(arr)
+    arr = markdown_parser.parse(content)
 
     markdown_writer = MarkdownWriter()
     markdown_writer.write(arr)
