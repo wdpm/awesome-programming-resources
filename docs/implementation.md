@@ -75,7 +75,7 @@ book_comment。other sentence。 [yXXXX] [pXXX] [LL] [TB]
 
 我们不关心标题元素，只关心段落元素。
 
-```json
+```
 {
   'type': 'Paragraph',
   'children': [
@@ -96,7 +96,7 @@ book_comment。other sentence。 [yXXXX] [pXXX] [LL] [TB]
 }
 ```
 
-```json
+```
 {
   'type': 'Paragraph',
   'children': [
@@ -165,3 +165,8 @@ item: {'type': 'Heading', 'level': 2, 'children': [{'type': 'RawText', 'content'
 item: {'type': 'Heading', 'level': 3, 'children': [{'type': 'RawText', 'content': 'Desktop App'}]}
 current_list_item: <ListItem: Electron in Action:https://book.douban.com/subject/30346427/: 关于 Electron 实战的一本务实落地的书籍。配套代码基本可运行。:['y2018', 'p376', 'LL']>
 ```
+
+## 更多元信息挖掘
+- item 数量
+- item 对应的年份分布-数量
+- level:count 这个map的显示
