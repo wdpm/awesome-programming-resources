@@ -1,4 +1,5 @@
 # awesome-programming-resources
+awesome programming resources.| 令人惊叹的编程资源。
 ## Math
 ### novel
 <details>
@@ -115,6 +116,12 @@
 </details>              
 ### framework
 > JQuery 退位之后，MVC 、MVVM 模式开始交替。现在是 Angular、React、Vue、Svelte、Web Component 时代。
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/32581281/">深入浅出Vue.js</a>
+    </summary>
+    关于 Vue 2.x 源码设计原理的说明。语言稍微欠缺流畅，部分章节讲解不够透彻。总体而言可以阅读。 <code>year:ear2019</code> <code>page:282</code> <code>level:M</code>
+</details>              
 ## CSS
 > Web 前端三大语言中的样式。此外，还有各种衍生的预处理器。
 <details>

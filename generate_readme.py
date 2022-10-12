@@ -1,4 +1,3 @@
-# use built-in open module
 import json
 import textwrap
 
@@ -7,6 +6,7 @@ from jinja2 import Template
 from mistletoe.ast_renderer import ASTRenderer
 
 
+# use built-in open module
 class MarkdownReader:
 
     @staticmethod
@@ -63,16 +63,36 @@ class ListItem(object):
         return f"<ListItem: {self.title}:{self.link}:{self.description}:{self.tags}>"
 
 
+class ParsedSummary:
+
+    def __init__(self):
+        self.state = "UNRESOLVED"
+        self.ast_item_size = None
+        self.markdown_item_size = None
+
+    def __repr__(self):
+        return f'<ParsedSummary: state={self.state};ast_item_size={self.ast_item_size};' \
+               f'markdown_item_size={self.markdown_item_size}>'
+
+
 # use mistletoe to get markdown AST
 class MarkdownParser:
+
+    def __init__(self):
+        pass
 
     @staticmethod
     def _parse_to_ast(text: str) -> str:
         parsed = mistletoe.markdown(text, ASTRenderer)
         return parsed
 
-    def parse(self, text: str) -> list:
+    def parse(self, text: str) -> tuple:
         ast_str = self._parse_to_ast(text)
+        # print(ast_str)
+
+        # statistics for ast list
+        ast_item_size = 0
+
         # ast str(as json) -> dict object
         ast_dict = json.loads(ast_str)
 
@@ -91,8 +111,15 @@ class MarkdownParser:
         for item in root_children:
 
             if item['type'] == 'Paragraph':
+
+                # normal paragraph
+                if item['children'] and len(item['children']) == 1 and item['children'][0]['type'] == 'RawText':
+                    result_array.append(item)
+
                 # link
                 if item['children'] and len(item['children']) == 1 and item['children'][0]['type'] == 'Link':
+                    ast_item_size += 1
+
                     children_ = item['children'][0]
                     item_title = children_['children'][0]['content']
                     item_link = children_['target']
@@ -129,13 +156,29 @@ class MarkdownParser:
                 # is not paragraph
                 result_array.append(item)
 
-        return result_array
+        markdown_item_size = self._compute_markdown_item_size(result_array)
+
+        summary = ParsedSummary()
+        summary.state = "RESOLVED"
+        summary.ast_item_size = ast_item_size
+        summary.markdown_item_size = markdown_item_size
+
+        return result_array, summary
+
+    @staticmethod
+    def _compute_markdown_item_size(md_list: list = None):
+        count = 0
+        for md_list_item in md_list:
+            if md_list_item['type'] == 'ListItem':
+                count += 1
+        return count
 
 
 # use jinja2 to write markdown back
 class MarkdownWriter:
 
-    def _transform(self, markdown_list: list = None) -> str:
+    @staticmethod
+    def _transform(markdown_list: list = None) -> str:
 
         markdown_content = ""
         line_break = "\r\n"
@@ -202,6 +245,9 @@ class MarkdownWriter:
                 template = Template(template_str)
                 rendered = template.render(data)
                 markdown_content += rendered + line_break
+            elif item['type'] == 'Paragraph':
+                normal_paragraph = item['children'][0]['content']
+                markdown_content += normal_paragraph + line_break
             else:
                 pass
 
@@ -219,7 +265,8 @@ if __name__ == '__main__':
 
     # file str -> custom list
     markdown_parser = MarkdownParser()
-    arr = markdown_parser.parse(content)
+    markdown_list, summary = markdown_parser.parse(content)
+    print(f'Summary[after]: {summary}')
 
     markdown_writer = MarkdownWriter()
-    markdown_writer.write(arr)
+    markdown_writer.write(markdown_list)
