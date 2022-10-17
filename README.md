@@ -79,8 +79,10 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     优秀的设计模式入门书籍。 <code>year:2006</code> <code>page:296</code> <code>level:L</code>
 </details>              
-## Computer Visualization
-> 计算机视觉。
+## Computer Vision
+> 计算机视觉（CV）。
+## Creative Coding
+> 创意编程。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/26264736/">代码本色：用编程模拟自然系统</a>

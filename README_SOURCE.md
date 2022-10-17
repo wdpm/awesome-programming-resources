@@ -80,9 +80,13 @@ JavaScript 中平衡、实用的 FP。`Y2017` `P388`  `LM`
 
 优秀的设计模式入门书籍。`Y2006` `P296` `LL`
 
-## Computer Visualization
+## Computer Vision
 
-> 计算机视觉。
+> 计算机视觉（CV）。
+
+## Creative Coding
+
+> 创意编程。
 
 [代码本色：用编程模拟自然系统](https://book.douban.com/subject/26264736/)
 
