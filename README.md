@@ -126,6 +126,12 @@ awesome programming resources.| 令人惊叹的编程资源。
 > Web 前端三大语言中的样式。此外，还有各种衍生的预处理器。
 <details>
     <summary>
+        <a href="https://github.com/jgthms/web-design-in-4-minutes">web-design-in-4-minutes</a>
+    </summary>
+    一个非常简洁的CSS入门启发例子。也许并不需要4分钟。 <code>year:2018</code> <code>page:8</code> <code>level:L</code>
+</details>              
+<details>
+    <summary>
         <a href="https://book.douban.com/subject/23123255/">CSS 设计指南</a>
     </summary>
     很好的 CSS 入门书籍。语言简洁扼要，思路清晰，涵盖响应式设计。 <code>year:2013</code> <code>page:288</code> <code>level:L</code>

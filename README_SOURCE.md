@@ -134,6 +134,12 @@ js 作用域和闭包，this 和对象原型。`y2015` `p195` `LH`
 
 ---
 
+[web-design-in-4-minutes](https://github.com/jgthms/web-design-in-4-minutes)
+
+一个非常简洁的CSS入门启发例子。也许并不需要4分钟。`y2018` `p8` `LL`
+
+---
+
 [CSS 设计指南](https://book.douban.com/subject/23123255/)
 
 很好的 CSS 入门书籍。语言简洁扼要，思路清晰，涵盖响应式设计。`y2013` `p288` `LL`
