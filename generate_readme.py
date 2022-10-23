@@ -221,7 +221,7 @@ class MarkdownWriter:
                 tags = item['tags']
                 for tag in tags:
                     #  year
-                    if tag.startswith('Y') or tag.startswith('y') or tag.lower().startswith('year'):
+                    if tag.startswith('Y') or tag.startswith('y'):
                         data['year'] = tag[1:]
                     # page number
                     if tag.startswith('P') or tag.startswith('p'):
