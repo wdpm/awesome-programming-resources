@@ -228,6 +228,10 @@ Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH`
 
 ---
 
+[Python Concurrency with asyncio](https://book.douban.com/subject/35219949/)
+
+神作。并发，并行，多线程，多进程，协程，事件轮询，异步等，尽在此书。`Y2021` `P325` `LM`
+
 ### python package
 
 ---

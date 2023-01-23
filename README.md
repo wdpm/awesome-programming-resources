@@ -209,6 +209,12 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     优秀的 python 入门书籍之一。 <code>year:2022</code> <code>page:382</code> <code>level:L</code>
 </details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35219949/">Python Concurrency with asyncio</a>
+    </summary>
+    神作。并发，并行，多线程，多进程，协程，事件轮询，异步等，尽在此书。 <code>year:2021</code> <code>page:325</code> <code>level:M</code>
+</details>              
 ### python package
 <details>
     <summary>
