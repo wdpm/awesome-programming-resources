@@ -2,6 +2,8 @@
 
 awesome programming resources.| 令人惊叹的编程资源。
 
+> TODO: https://img.shields.io/badge/year-2020-green?style=flat-square&logo=appveyor for badge
+
 ## Math
 
 ### novel
