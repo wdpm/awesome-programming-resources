@@ -1,5 +1,6 @@
 # awesome-programming-resources
 awesome programming resources.| 令人惊叹的编程资源。
+> TODO: https://img.shields.io/badge/year-2020-green?style=flat-square&logo=appveyor for badge
 ## Math
 ### novel
 <details>
@@ -208,6 +209,12 @@ awesome programming resources.| 令人惊叹的编程资源。
         <a href="https://book.douban.com/subject/35723705/">Python 工匠</a>
     </summary>
     优秀的 python 入门书籍之一。 <code>year:2022</code> <code>page:382</code> <code>level:L</code>
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35852243/">Python Testing with pytest, 2nd Edition</a>
+    </summary>
+    测试。pytest的全方位讲解，配套代码循循渐进。 <code>year:2022</code> <code>page:274</code> <code>level:L</code>
 </details>              
 <details>
     <summary>
