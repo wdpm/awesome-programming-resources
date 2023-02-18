@@ -201,6 +201,14 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     Java 编程的 90 个经验总结，内容较深。 <code>year:2018</code> <code>page:311</code> <code>level:H</code>
 </details>              
+## Go
+> 一门年轻有活力的后端语言。
+<details>
+    <summary>
+        <a href="https://www.manning.com/books/effective-go">Effective Go:Elegant, efficient, and testable code</a>
+    </summary>
+    4星。偏实战，中阶级别。语言有些冗余和跳跃，配套代码只有最终版本。论述主题主要为可测试性、可维护性、协程并发。 <code>year:2023</code> <code>page:300+</code> <code>level:M</code>
+</details>              
 ## Python
 > 人生苦短，我用 python。
 ### python basic

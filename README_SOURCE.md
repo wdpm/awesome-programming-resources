@@ -216,6 +216,16 @@ Spring 4.x 版本，内容涵盖面很广。`y2016` `p577` `LL`
 
 Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH`
 
+## Go
+
+> 一门年轻有活力的后端语言。
+
+---
+
+[Effective Go:Elegant, efficient, and testable code](https://www.manning.com/books/effective-go)
+
+4星。偏实战，中阶级别。语言有些冗余和跳跃，配套代码只有最终版本。论述主题主要为可测试性、可维护性、协程并发。`Y2023` `P300+`  `LM`
+
 ## Python
 
 > 人生苦短，我用 python。
