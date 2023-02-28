@@ -2,8 +2,6 @@
 
 awesome programming resources.| 令人惊叹的编程资源。
 
-> TODO: https://img.shields.io/badge/year-2020-green?style=flat-square&logo=appveyor for badge
-
 ## Math
 
 ### novel
@@ -172,7 +170,7 @@ CSS 特效作品集。内容实用，融数学、艺术、审美于一身。 `y2
 
 ## Java
 
-> 一个小心翼翼的语言，格式规范，奈何冗长。隔壁 Kotlin 都杀疯了 (bushi)。
+> 一个小心翼翼的语言，格式规范，发展比较缓慢。
 
 ---
 
@@ -225,6 +223,12 @@ Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH`
 [Effective Go:Elegant, efficient, and testable code](https://www.manning.com/books/effective-go)
 
 4星。偏实战，中阶级别。语言有些冗余和跳跃，配套代码只有最终版本。论述主题主要为可测试性、可维护性、协程并发。`Y2023` `P300+`  `LM`
+
+---
+
+[Go语言实战](https://book.douban.com/subject/27015617/)
+
+优秀的Go入门书，涵盖了入门基础、并发模式、标准库介绍、测试。第 2 版在2023年出版。`Y2017` `P224`  `LL`
 
 ## Python
 

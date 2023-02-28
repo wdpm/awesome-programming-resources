@@ -170,3 +170,15 @@ current_list_item: <ListItem: Electron in Action:https://book.douban.com/subject
 - item 数量
 - item 对应的年份分布-数量
 - level:count 这个map的显示
+
+## move badges from pure text to shield.io icons
+```html
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/26677354/">数学女孩</a>
+        <img src="https://img.shields.io/badge/{key}-{value}-green?style=flat-square&logo={logo}" alt="year" style="vertical-align: -3px">
+        <!--...-->
+    </summary>
+    梦开始的地方。其实是披着小说外衣的数学证明题集，但有着一种独特的浪漫。可能这就是轻小说的魅力吧。 
+</details>    
+```

@@ -63,6 +63,32 @@ class ListItem(object):
         return f"<ListItem: {self.title}:{self.link}:{self.description}:{self.tags}>"
 
 
+def get_badges(year, pages, level, topic):
+    """
+     return year/pages/level/topic badges.
+
+    :return:
+    """
+    #  <code>year:2016</code> <code>pages:327</code> <code>level:L</code> <code>topic:?</code>
+
+    common_tmpl = """\
+    <img src="https://img.shields.io/badge/{key}-{value}-{color}?style=flat-square" alt="year" style="vertical-align: -3px">"""
+
+    # custom icon: ?logo=data:image/png;base64,…
+
+    # todo: differentiate year by color
+    badge_year = common_tmpl.format(key="📅year", value=year, color="green",)
+    badge_pages = common_tmpl.format(key="🗐pages", value=pages, color="green",)
+    # todo differentiate level by color
+    badge_level = common_tmpl.format(key="🤔level", value=level, color="green",)
+    badge_topic = common_tmpl.format(key="topic", value=topic, color="green",) if topic else ""
+
+    # other special tag
+
+    badge_array = [badge_year, badge_pages, badge_level, badge_topic]
+    return "\n".join(badge_array[:-1]) + badge_array[-1]
+
+
 class ParsedSummary:
 
     def __init__(self):
@@ -213,9 +239,10 @@ class MarkdownWriter:
                     'link': item['link'],
                     'description': item['description'],
                     'year': None,
-                    'page': None,
+                    'pages': None,
                     "level": None,
-                    "type": 'BOOK'
+                    "type": 'BOOK',
+                    'badges_html': None
                 }
 
                 tags = item['tags']
@@ -225,20 +252,28 @@ class MarkdownWriter:
                         data['year'] = tag[1:]
                     # page number
                     if tag.startswith('P') or tag.startswith('p'):
-                        data['page'] = tag[1:]
+                        data['pages'] = tag[1:]
                     # level
                     if tag.startswith('L') or tag.startswith('l'):
                         data['level'] = tag[1:]
+
+                    # All options below are optional badges
                     # type, default book
-                    if tag.startswith("T") or tag.startswith('t'):
+                    if tag.startswith("T") or tag.startswith('T'):
                         data['type'] = tag[1:]
+                    if tag.lower().startswith("topic:"):
+                        data['topic'] = tag[6:]
+
+                badges_html = get_badges(data['year'], data['pages'], data['level'], data.get('topic'))
+                data['badges_html'] = badges_html
 
                 template_str = textwrap.dedent("""\
                 <details>
                     <summary>
                         <a href="{{link}}">{{title}}</a>
+                        {{badges_html}}
                     </summary>
-                    {{description}} <code>year:{{year}}</code> <code>page:{{page}}</code> <code>level:{{level}}</code>
+                    {{description}}
                 </details>              
                 """)
 
