@@ -77,16 +77,18 @@ def get_badges(year, pages, level, topic):
     # custom icon: ?logo=data:image/png;base64,…
 
     # todo: differentiate year by color
-    badge_year = common_tmpl.format(key="📅year", value=year, color="green",)
-    badge_pages = common_tmpl.format(key="🗐pages", value=pages, color="green",)
+    badge_year = common_tmpl.format(key="📅year", value=year, color="green", )
+    badge_pages = common_tmpl.format(key="🗐pages", value=pages, color="green", )
     # todo differentiate level by color
-    badge_level = common_tmpl.format(key="🤔level", value=level, color="green",)
-    badge_topic = common_tmpl.format(key="topic", value=topic, color="green",) if topic else ""
+    badge_level = common_tmpl.format(key="🤔level", value=level, color="green", )
+    badge_topic = common_tmpl.format(key="topic", value=topic, color="green", ) if topic else ""
 
     # other special tag
 
     badge_array = [badge_year, badge_pages, badge_level, badge_topic]
-    return "\n".join(badge_array[:-1]) + badge_array[-1]
+
+    # must no tailing \n
+    return "\n".join(badge_array[:-1]) + "\n" + badge_array[-1]
 
 
 class ParsedSummary:
