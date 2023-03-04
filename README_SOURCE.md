@@ -2,6 +2,8 @@
 
 awesome programming resources.| 令人惊叹的编程资源。
 
+<!--TOC-->
+
 ## Math
 
 ### novel
@@ -91,6 +93,14 @@ JavaScript 中平衡、实用的 FP。`Y2017` `P388`  `LM` `topic: 函数式编�
 [代码本色：用编程模拟自然系统](https://book.douban.com/subject/26264736/)
 
 一份浪漫的代码艺术，使用 p5.js 模拟自然系统。`Y2014` `P401`  `LL` `topic: 自然模拟 `
+
+## Design
+
+> 设计相关，Web 设计、平面设计。
+
+[写给大家看的设计书（第4版）](https://book.douban.com/subject/26664522/)
+
+4大基本原则: 亲密性、对齐、重复、对比。`Y2016` `P252`  `LL` `topic:平面设计`
 
 ## JavaScript
 
@@ -220,15 +230,22 @@ Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH` `topic:Ja
 
 ---
 
+[Go 语言实战](https://book.douban.com/subject/27015617/)
+
+优秀的 Go 入门书，涵盖了入门基础、并发模式、标准库介绍、测试。第 2 版在 2023 年出版。`Y2017` `P224`  `LL` `topic:Go 基础`
+
+---
+
 [Effective Go:Elegant, efficient, and testable code](https://www.manning.com/books/effective-go)
 
 4 星。偏实战，中阶级别。语言有些冗余和跳跃，配套代码只有最终版本。论述主题主要为可测试性、可维护性、协程并发。`Y2023` `P300+`  `LM` `topic:Go 修炼`
 
 ---
 
-[Go 语言实战](https://book.douban.com/subject/27015617/)
+[Go Web 编程](https://book.douban.com/subject/27204133/)
 
-优秀的 Go 入门书，涵盖了入门基础、并发模式、标准库介绍、测试。第 2 版在 2023 年出版。`Y2017` `P224`  `LL` `topic:Go 实战`
+使用 Go 原生内置库进行讲解，配套代码简单易懂。第二章论坛demo模型很有趣。缺点是现在看来有点过时，部分语言不够精炼，部分代码过于随意。
+`Y2017` `P304`  `LL` `topic:Web 编程`
 
 ## Python
 

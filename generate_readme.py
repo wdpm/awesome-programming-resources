@@ -1,5 +1,7 @@
 import json
 import textwrap
+from datetime import datetime
+from enum import Enum
 
 import mistletoe
 from jinja2 import Template
@@ -63,28 +65,62 @@ class ListItem(object):
         return f"<ListItem: {self.title}:{self.link}:{self.description}:{self.tags}>"
 
 
+class Level(Enum):
+    L = 1
+    M = 2
+    H = 3
+    UNKNOWN = 10
+
+
 def get_badges(year, pages, level, topic):
     """
      return year/pages/level/topic badges.
 
     :return:
     """
-    #  <code>year:2016</code> <code>pages:327</code> <code>level:L</code> <code>topic:?</code>
+
+    def get_color_of_year(year: int):
+        current_year = datetime.now().year
+
+        if current_year - year <= 3:
+            return "c2255c"
+        elif current_year - year <= 5:
+            return "e64980"
+        elif current_year - year <= 10:
+            return "f783ac"
+        else:
+            return "fcc2d7"
+
+    def get_color_of_pages(pages: int):
+        if pages <= 300:
+            return "d0bfff"
+        elif pages <= 500:
+            return "9775fa"
+        elif pages <= 800:
+            return "7950f2"
+        else:
+            return "6741d9"
+
+    def get_color_of_level(level: Level):
+        if level == Level.L:
+            return "96f2d7"
+        elif level == Level.M:
+            return "20c997"
+        elif level == Level.H:
+            return "099268"
+        else:
+            # default as L
+            return "96f2d7"
 
     common_tmpl = """\
     <img src="https://img.shields.io/badge/{key}-{value}-{color}?style=flat-square" alt="year" style="vertical-align: -3px">"""
 
     # custom icon: ?logo=data:image/png;base64,…
-
-    # todo: differentiate year by color
-    badge_year = common_tmpl.format(key="📅year", value=year, color="green", )
-    badge_pages = common_tmpl.format(key="🗐pages", value=pages, color="green", )
-    # todo differentiate level by color
-    badge_level = common_tmpl.format(key="🤔level", value=level, color="green", )
+    badge_year = common_tmpl.format(key="📅year", value=year, color=get_color_of_year(year), )
+    badge_pages = common_tmpl.format(key="🗐pages", value=pages, color=get_color_of_pages(pages), )
+    badge_level = common_tmpl.format(key="🤔level", value=level, color=get_color_of_level(level), )
     badge_topic = common_tmpl.format(key="topic", value=topic, color="green", ) if topic else ""
-
     # other special tag
-
     badge_array = [badge_year, badge_pages, badge_level, badge_topic]
 
     # must no tailing \n
@@ -218,6 +254,9 @@ class MarkdownWriter:
                 heading = item['children'][0]['content']
                 level = int(item['level'])
                 markdown_content += "#" * level + " " + heading + line_break
+
+                # here can derive toc: use level for text indent depth
+                # print("#" * level + " " + heading)
             elif item_type == 'Quote':
                 quote = ""
                 quote_children = item['children'][0]['children']
@@ -251,13 +290,19 @@ class MarkdownWriter:
                 for tag in tags:
                     #  year
                     if tag.startswith('Y') or tag.startswith('y'):
-                        data['year'] = tag[1:]
+                        data['year'] = int(tag[1:])
                     # page number
                     if tag.startswith('P') or tag.startswith('p'):
-                        data['pages'] = tag[1:]
+                        data['pages'] = int(tag[1:].rstrip("+"))
                     # level
                     if tag.startswith('L') or tag.startswith('l'):
-                        data['level'] = tag[1:]
+                        level_map = {
+                            'L': Level.L,
+                            'M': Level.M,
+                            'H': Level.H,
+                        }
+                        key = tag[1:]
+                        data['level'] = level_map.get(key, Level.UNKNOWN)
 
                     # All options below are optional badges
                     # type, default book
