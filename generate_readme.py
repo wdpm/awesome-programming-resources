@@ -79,7 +79,8 @@ def get_badges(year, pages, level, topic):
     :return:
     """
 
-    def get_color_of_year(year: int):
+    def get_color_of_year(year: str):
+        year = int(year)
         current_year = datetime.now().year
 
         if current_year - year <= 3:
@@ -91,7 +92,9 @@ def get_badges(year, pages, level, topic):
         else:
             return "fcc2d7"
 
-    def get_color_of_pages(pages: int):
+    def get_color_of_pages(pages: str):
+        pages = int(pages.rstrip("+"))
+
         if pages <= 300:
             return "d0bfff"
         elif pages <= 500:
@@ -101,7 +104,14 @@ def get_badges(year, pages, level, topic):
         else:
             return "6741d9"
 
-    def get_color_of_level(level: Level):
+    def get_color_of_level(level: str):
+        level_map = {
+            'L': Level.L,
+            'M': Level.M,
+            'H': Level.H,
+        }
+        level = level_map.get(level, Level.UNKNOWN)
+
         if level == Level.L:
             return "96f2d7"
         elif level == Level.M:
@@ -290,19 +300,13 @@ class MarkdownWriter:
                 for tag in tags:
                     #  year
                     if tag.startswith('Y') or tag.startswith('y'):
-                        data['year'] = int(tag[1:])
+                        data['year'] = tag[1:]
                     # page number
                     if tag.startswith('P') or tag.startswith('p'):
-                        data['pages'] = int(tag[1:].rstrip("+"))
+                        data['pages'] = tag[1:]
                     # level
                     if tag.startswith('L') or tag.startswith('l'):
-                        level_map = {
-                            'L': Level.L,
-                            'M': Level.M,
-                            'H': Level.H,
-                        }
-                        key = tag[1:]
-                        data['level'] = level_map.get(key, Level.UNKNOWN)
+                        data['level'] = tag[1:]
 
                     # All options below are optional badges
                     # type, default book
