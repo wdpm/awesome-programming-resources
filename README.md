@@ -65,6 +65,17 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     Git 版本控制的入门书，由浅入深，可以酌情阅读。
 </details>              
+## Open Source
+<details>
+    <summary>
+        <a href="https://opensource.guide/zh-hans/">开源软件指南</a>
+            <img src="https://img.shields.io/badge/📅year-2023-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-/-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-开源项目-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    开源指南是一个资源集合，供想要学习如何运行开源项目并为开源项目做出贡献的个人、社区和公司使用。
+</details>              
 ## App Development
 ### Desktop App
 <details>

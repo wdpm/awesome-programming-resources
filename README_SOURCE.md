@@ -44,6 +44,14 @@ Git 版本控制的入门书，由浅入深，可以酌情阅读。`y2017` `p420
 
 ---
 
+## Open Source
+
+[开源软件指南](https://opensource.guide/zh-hans/)
+
+开源指南是一个资源集合，供想要学习如何运行开源项目并为开源项目做出贡献的个人、社区和公司使用。`y2023` `p/` `LL` `topic:开源项目`
+
+---
+
 ## App Development
 
 ### Desktop App

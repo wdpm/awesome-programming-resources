@@ -93,16 +93,20 @@ def get_badges(year, pages, level, topic):
             return "fcc2d7"
 
     def get_color_of_pages(pages: str):
-        pages = int(pages.rstrip("+"))
+        try:
+            pages = int(pages.rstrip("+"))
 
-        if pages <= 300:
+            if pages <= 300:
+                return "d0bfff"
+            elif pages <= 500:
+                return "9775fa"
+            elif pages <= 800:
+                return "7950f2"
+            else:
+                return "6741d9"
+        except:
+            # p/ pXXX
             return "d0bfff"
-        elif pages <= 500:
-            return "9775fa"
-        elif pages <= 800:
-            return "7950f2"
-        else:
-            return "6741d9"
 
     def get_color_of_level(level: str):
         level_map = {
