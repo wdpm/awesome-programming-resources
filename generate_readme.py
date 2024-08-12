@@ -322,6 +322,9 @@ class MarkdownWriter:
                 badges_html = get_badges(data['year'], data['pages'], data['level'], data.get('topic'))
                 data['badges_html'] = badges_html
 
+                # check all fields of data object
+                print(f'{data}')
+
                 template_str = textwrap.dedent("""\
                 <details>
                     <summary>

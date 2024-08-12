@@ -54,6 +54,16 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     一份简洁的数学分析介绍。
 </details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/30271424/">简单微积分</a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-213-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 微积分-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    好奇心能在正规教育中幸存下来，是一种奇迹。这本书没有苏联式教科书那种刻板的教学描述，而是拆解到具体的例子，揭示平易近人的微积分本质。
+</details>              
 ## Version Control System
 <details>
     <summary>
@@ -81,7 +91,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30346427/">Electron in Action</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-376-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Electron-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -93,12 +103,33 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30186150/">DevOps 实践指南</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-328-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-DevOps-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     运维相关经验之谈。
+</details>              
+## System Design
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/30329536/">数据密集型应用系统设计</a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-519-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-H-099268?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 系统设计-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    总体评价，圣经。第一：中文翻译不是很理想，句子不通顺，句法有时含有语病，例如缺少介词或者介词不对。 第二：前面几个章节内容惊为天人，满分屠龙术。 第三：书中内容不是实际可以实践的代码，而是高屋建瓴的insight，是经验的总结和理论的归纳。 第四：书中的插图很有亮点。每章的开头第一张路线图代表着曾经走过的路和坑，其余的时间流程图也是清晰易懂。 第五：每章后面的参考文献有些有100多篇，广度很大。学有余力可以选读部分。 第六：这应该是一本需要多刷几次的书籍，一次阅读明显吸收的不够，可能是自身能力还不足以与某些章节的内容共情。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/30333919/">架构整洁之道 </a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-348-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 软件架构-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    4星。印象最深的是第34章的【组织形式与封装的区别】，对比了按层封装（水平切分）、按功能切分（垂直切分）、端口与适配器模式（domain聚合）、“组件”封装（组件思维）四种方式的区别。另外的感悟就是，尽量抽象，脱离实现细节，因为细节往往意味着系统边界模糊不清。
 </details>              
 ## Algorithm
 <details>
@@ -107,9 +138,19 @@ awesome programming resources.| 令人惊叹的编程资源。
             <img src="https://img.shields.io/badge/📅year-2017-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-196-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/topic- 算法 -green?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 算法基础 -green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     算法入门书籍，有大量图解，拆解算法过程。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35093446/">算法精粹</a>
+            <img src="https://img.shields.io/badge/📅year-2020-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-209-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 算法基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    篇幅短小，深入浅出，思路清晰，代码优秀。是一本很好的算法书籍。不足之处是神经网络这章讲的不够好，反向传播的偏导数的求解过程没说明。神经网络的入门，鱼书明显讲的更加透彻。
 </details>              
 ## Functional Programming
 > 消除函数副作用，支持可重入，这就是函数式编程。
@@ -149,7 +190,7 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     一份浪漫的代码艺术，使用 p5.js 模拟自然系统。
 </details>              
-## Design
+## UI Design
 > 设计相关，Web 设计、平面设计。
 <details>
     <summary>
@@ -167,12 +208,22 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35175321/">JavaScript 高级程序设计（第 4 版）</a>
-            <img src="https://img.shields.io/badge/📅year-2020-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2020-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-888-6741d9?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-JavaScript 基础 -green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     JavaScript 基础入门书籍，涵盖面很广，可以作为提纲。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/30143702/">JavaScript忍者秘籍（第2版）</a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-448-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- JavaScript 基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    此书中文翻译一定是机器翻译，非常差。原书内容值得五星。非常好的JS进阶书籍。推荐个别章节阅读英文原版。
 </details>              
 <details>
     <summary>
@@ -204,6 +255,17 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     类型和语法，异步和性能。
 </details>              
+### Testing
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/34944396/">The Art of Unit Testing, Third Edition </a>
+            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-325-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- JavaScript 测试-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    1-6章观感很好，代码也很细致。后面的章节开始，就很空泛，因此扣一分。总体而言，还是一本JS描述的讲解单元测试的好书。
+</details>              
 ### framework
 > JQuery 退位之后，MVC 、MVVM 模式开始交替。现在是 Angular、React、Vue、Svelte、Web Component 时代。
 <details>
@@ -212,9 +274,19 @@ awesome programming resources.| 令人惊叹的编程资源。
             <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-282-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/topic-Vue 2.x 源码-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-Vue 2.x 原理-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     关于 Vue 2.x 源码设计原理的说明。语言稍微欠缺流畅，部分章节讲解不够透彻。总体而言可以阅读。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35768338/">Vue.js设计与实现</a>
+            <img src="https://img.shields.io/badge/📅year-2022  -c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-501-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Vue 3.x 原理-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    主要内容：响应式（effect收集与触发）、渲染（主要是diff这块，LIS最长递增子序列）、组件化、编译器（AST、上下文无关文法）、同构渲染（hydration）。虽然配套代码也有很大的瑕疵，有些书中的代码也没给出，但整体来看依旧是一本难得的Vue入门书籍。行文风格不错，但偶尔会显得不够简洁，有时一个很简单的事情，文字描述了一大段一大段。还好没有出现狂列表格的国产技术书通病，值得好评。
 </details>              
 <details>
     <summary>
@@ -226,12 +298,22 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     很好的 React 入门书籍之一。代码规范，语言简洁。描述了版本特性演化、技术选型方案对比。
 </details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/34887887/">Learning React 2nd ed. </a>
+            <img src="https://img.shields.io/badge/📅year-2020-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-300-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- React 入门 -green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    入门级别。chapter 6-9,10-11为重点内容，赶时间的可以直接读这几个章节。【优点】：代码例子接地气，大多使用github api，亲切感很足。语言朴素直白，没有废话。【缺点】：配套代码仓库很多章节就是一个readme.md，代码示例全在codesandbox，需要一个一个导出到本地运行调试。部分代码存在bug，需要自行修复才能运行。总体而言，是一本很好的React入门书籍。
+</details>              
 ## CSS
 > Web 前端三大语言中的样式。此外，还有各种衍生的预处理器。
 <details>
     <summary>
         <a href="https://github.com/jgthms/web-design-in-4-minutes">web-design-in-4-minutes</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-8-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-CSS 演示-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -241,7 +323,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/23123255/">CSS 设计指南</a>
-            <img src="https://img.shields.io/badge/📅year-2013-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2013-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-288-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-CSS 基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -273,7 +355,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/10484692/">Java 并发编程实战</a>
-            <img src="https://img.shields.io/badge/📅year-2020-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2020-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-293-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Java并发-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -293,7 +375,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30346440/">Spring in Action (5th edition)</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-520-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Spring 5.x-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -303,7 +385,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30333948/">码出高效：Java 开发手册</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-304-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Java 经验-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -322,8 +404,18 @@ awesome programming resources.| 令人惊叹的编程资源。
 </details>              
 <details>
     <summary>
+        <a href="https://book.douban.com/subject/30282531/">Java攻略 </a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-248-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Java 8&9 基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    本书讲解内容和质量，给三星。配套代码的质量给4星。这本书聚焦于Java 8&9 的日常开发使用，整体上算得上一本合格的入门书籍。跟这本书定位类似的书籍是《Java 实战》，那本书似乎讲解的更加全面。
+</details>              
+<details>
+    <summary>
         <a href="https://book.douban.com/subject/27605355/">阿里巴巴 Java 开发手册</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-112-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Java 经验-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -333,7 +425,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30412517/">Effective Java 中文版（第 3 版）</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-311-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-H-099268?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Java 经验-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -368,13 +460,33 @@ awesome programming resources.| 令人惊叹的编程资源。
             <img src="https://img.shields.io/badge/📅year-2017-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-304-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/topic-Web 编程-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-Go Web-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     使用 Go 原生内置库进行讲解，配套代码简单易懂。第二章论坛demo模型很有趣。缺点是现在看来有点过时，部分语言不够精炼，部分代码过于随意。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/36084407/">100 Go Mistakes and How to Avoid Them</a>
+            <img src="https://img.shields.io/badge/📅year-2022-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-384-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-Go 修炼-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    Not having this book will be your 101st mistake if you are a Gopher. 这本书绝不是一本能轻易吸收消化的书籍，虽然本意是Go语言描述，列举了Go开发时常见的100个误区，但是书中论述的这些经验，同样适用于其他编程领域。这本书，可以被视为Effective XXX系列。
 </details>              
 ## Python
 > 人生苦短，我用 python。
 ### python basic
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/36342440/">流畅的Python（第2版） </a>
+            <img src="https://img.shields.io/badge/📅year-2023-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-736-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Python 基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    本书英文版相关网站：https://www.fluentpython.com/about/ 原书内容很好，但是中文翻译版本语句语法错误较为明显，疑似机翻。推荐未入坑的新人尽量看英文原版，不懂的单词就使用工具翻译来阅读。
+</details>              
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35723705/">Python 工匠</a>
@@ -405,6 +517,26 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     神作。并发，并行，多线程，多进程，协程，事件轮询，异步等，尽在此书。
 </details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35334595/">Effective Python</a>
+            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-388-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-Python 修炼-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    实用简洁的Python 开发经验总结。不负Effective系列的名称。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35681856/">Python3网络爬虫开发实战 第2版</a>
+            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-918-6741d9?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Python 爬虫-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    这本书总分5星的话，我只给3星。部分章节讲解空泛-1分；全书篇幅过长，语言不够精炼-1分。然而市面上目前将爬虫这个主题写的好的书本少之又少，而此书对于学习爬虫来说，它的大纲指明了一个较为全面的学习目标。因此，将此书列入推荐阅读。
+</details>              
 ### python package
 <details>
     <summary>
@@ -420,7 +552,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30270959/">深度学习入门</a>
-            <img src="https://img.shields.io/badge/📅year-2018-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-285-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-深度学习:基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -486,7 +618,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/23008813/">高性能 MySQL( 第 3 版)</a>
-            <img src="https://img.shields.io/badge/📅year-2013-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2013-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-764-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-MySQL 性能-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -515,17 +647,16 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     k8s 入门神书，非常推荐。行文流畅简洁，讲解深入浅出，清晰的架构流程图，知识点覆盖面广，实践性极强。
 </details>              
-## IT Culture
-> 来，喝了这碗心灵的 ~~毒鸡汤~~。一般而言，都不喜欢推荐这类书籍，除非它的确有可取之处。
+## Code Quality
 <details>
     <summary>
-        <a href="https://book.douban.com/subject/6021440/">黑客与画家</a>
-            <img src="https://img.shields.io/badge/📅year-2011-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/🗐pages-264-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+        <a href="https://book.douban.com/subject/36505464/">"Looks Good to Me" </a>
+            <img src="https://img.shields.io/badge/📅year-2024-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-265-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/topic-IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 代码评审-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
-    编程是一门艺术创作，自我驱动，以兴趣为导向的创作往往具有惊人的效果。
+    一本不错的代码评审的指导书。
 </details>              
 <details>
     <summary>
@@ -549,16 +680,6 @@ awesome programming resources.| 令人惊叹的编程资源。
 </details>              
 <details>
     <summary>
-        <a href="https://book.douban.com/subject/25930025/">只是为了好玩</a>
-            <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/🗐pages-255-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/topic-IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
-    </summary>
-    生活是为了追求快乐。
-</details>              
-<details>
-    <summary>
         <a href="https://book.douban.com/subject/25853677/">大话重构</a>
             <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-268-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -566,6 +687,28 @@ awesome programming resources.| 令人惊叹的编程资源。
     <img src="https://img.shields.io/badge/topic-代码重构-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     语言接地气，Java 语言描述来讲解重构。
+</details>              
+## IT Culture
+> 来，喝了这碗心灵的 ~~毒鸡汤~~。一般而言，都不喜欢推荐这类书籍，除非它的确有可取之处。
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/6021440/">黑客与画家</a>
+            <img src="https://img.shields.io/badge/📅year-2011-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-264-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    编程是一门艺术创作，自我驱动，以兴趣为导向的创作往往具有惊人的效果。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/25930025/">只是为了好玩</a>
+            <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-255-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    生活是为了追求快乐。
 </details>              
 ## API Design
 > 鲜有人认真研究的 API Design 领域。
@@ -578,4 +721,50 @@ awesome programming resources.| 令人惊叹的编程资源。
     <img src="https://img.shields.io/badge/topic-API设计-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     关于 Web API 设计细致的演化讲解。
+</details>              
+## Game Development
+> 游戏开发。暂时将这部分推荐放于此仓库，后续如果膨胀，应该迁移到game-dev-center。
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/1246350/">游戏的设计与开发</a>
+            <img src="https://img.shields.io/badge/📅year-2003-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-476-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 游戏开发科普-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    4星。这本书极具前瞻性（它是03年的），而且内容涵盖面很广，涉及了游戏开发的各个方面。语言描述点到即止，不拖泥带水，因此篇幅仅300多页。它是一本很好的游戏开发理论指导书。最后，引用书中这段话作为结束——"我们的少年时代都做过很多梦，很多温馨的梦。在梦里梦见所爱但现实中得不到的东西，和所爱但现实中怯于亲近的人。但每次从梦中醒来时，又要忍受那种得到后又失去的怅惘和失落。但少年的希望总是有，少年总是坚信他的梦将来可以成为现实。于是虽然生活本身并不如意，少年的梦还是做下去，不断地做下去。直到随着年龄的增长，少年明白梦已经不太可能成为现实了。他的梦也就逐渐减少，乃至消亡了。而游戏是少年的梦的延续，它保持我们梦想的能力，短暂延缓它的消亡"。
+</details>              
+## Writing
+> 写作相关。
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/26921052/">英语写作手册：风格的要素 </a>
+            <img src="https://img.shields.io/badge/📅year-2016-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-125-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 英文写作风格-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    4星。篇幅简短实用。
+</details>              
+## Thinking
+> 思考人生与生活。
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/27186106/">心流——最优体验心理学</a>
+            <img src="https://img.shields.io/badge/📅year-2017-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-381-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 心理学-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    行动式生活、内心的秩序。这本书其实讲的是如何自得其乐，或者发现人生的快乐。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/34799637/">People Powered</a>
+            <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-320-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 社区建设-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    社区应该是人们有共同需求或兴趣的中心。社区有共同的利益追求。此书电子版仅190页，很薄，因此语言简洁，没有废话。书中有些主题的分点论述很好，得到了启发。总之，这是一本关于互联网社区构建的好书。
 </details>              

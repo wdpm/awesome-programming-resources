@@ -36,6 +36,13 @@ awesome programming resources.| 令人惊叹的编程资源。
 
 一份简洁的数学分析介绍。`Y2015` `P175` `LM` `topic: 数学分析 `
 
+---
+
+[简单微积分](https://book.douban.com/subject/30271424/)
+
+好奇心能在正规教育中幸存下来，是一种奇迹。这本书没有苏联式教科书那种刻板的教学描述，而是拆解到具体的例子，揭示平易近人的微积分本质。`Y2018` `P213` `LL` `topic: 微积分`
+
+
 ## Version Control System
 
 [精通 Git（第 2 版）](https://book.douban.com/subject/27133267/)
@@ -49,8 +56,6 @@ Git 版本控制的入门书，由浅入深，可以酌情阅读。`y2017` `p420
 [开源软件指南](https://opensource.guide/zh-hans/)
 
 开源指南是一个资源集合，供想要学习如何运行开源项目并为开源项目做出贡献的个人、社区和公司使用。`y2023` `p/` `LL` `topic:开源项目`
-
----
 
 ## App Development
 
@@ -68,11 +73,33 @@ Git 版本控制的入门书，由浅入深，可以酌情阅读。`y2017` `p420
 
 运维相关经验之谈。`y2018` `p328` `LL` `topic:DevOps`
 
+## System Design
+
+[数据密集型应用系统设计](https://book.douban.com/subject/30329536/)
+
+总体评价，圣经。第一：中文翻译不是很理想，句子不通顺，句法有时含有语病，例如缺少介词或者介词不对。 第二：前面几个章节内容惊为天人，满分屠龙术。 第三：书中内容不是实际可以实践的代码，而是高屋建瓴的insight，是经验的总结和理论的归纳。 第四：书中的插图很有亮点。每章的开头第一张路线图代表着曾经走过的路和坑，其余的时间流程图也是清晰易懂。 第五：每章后面的参考文献有些有100多篇，广度很大。学有余力可以选读部分。 第六：这应该是一本需要多刷几次的书籍，一次阅读明显吸收的不够，可能是自身能力还不足以与某些章节的内容共情。`Y2018` `P519` `LH` `topic: 系统设计`
+
+---
+
+[架构整洁之道 ](https://book.douban.com/subject/30333919/)
+
+4星。印象最深的是第34章的【组织形式与封装的区别】，对比了按层封装（水平切分）、按功能切分（垂直切分）、端口与适配器模式（domain聚合）、“组件”封装（组件思维）四种方式的区别。另外的感悟就是，尽量抽象，脱离实现细节，因为细节往往意味着系统边界模糊不清。`Y2018` `P348` `LM` `topic: 软件架构`
+
+
+
 ## Algorithm
 
 [算法图解](https://book.douban.com/subject/26979890/)
 
-算法入门书籍，有大量图解，拆解算法过程。`Y2017` `P196` `LL` `topic: 算法 `
+算法入门书籍，有大量图解，拆解算法过程。`Y2017` `P196` `LL` `topic: 算法基础 `
+
+---
+
+[算法精粹](https://book.douban.com/subject/35093446/)
+
+篇幅短小，深入浅出，思路清晰，代码优秀。是一本很好的算法书籍。不足之处是神经网络这章讲的不够好，反向传播的偏导数的求解过程没说明。神经网络的入门，鱼书明显讲的更加透彻。`Y2020` `P209` `LM` `topic: 算法基础`
+
+
 
 ## Functional Programming
 
@@ -102,7 +129,7 @@ JavaScript 中平衡、实用的 FP。`Y2017` `P388`  `LM` `topic: 函数式编�
 
 一份浪漫的代码艺术，使用 p5.js 模拟自然系统。`Y2014` `P401`  `LL` `topic: 自然模拟 `
 
-## Design
+## UI Design
 
 > 设计相关，Web 设计、平面设计。
 
@@ -122,6 +149,12 @@ JavaScript 基础入门书籍，涵盖面很广，可以作为提纲。`Y2020` `
 
 ---
 
+[JavaScript忍者秘籍（第2版）](https://book.douban.com/subject/30143702/)
+
+此书中文翻译一定是机器翻译，非常差。原书内容值得五星。非常好的JS进阶书籍。推荐个别章节阅读英文原版。`Y2018` `P448` `LM` `topic: JavaScript 基础`
+
+---
+
 [JavaScript 语言精粹](https://book.douban.com/subject/11874748/)
 
 时代的眼泪。它是 ES6 语法之前的 JS 精髓书籍，即使过时但其中一些思路依旧闪烁光芒。`y2012` `p155` `LL` `topic:JavaScript 基础 `
@@ -138,7 +171,15 @@ js 作用域和闭包，this 和对象原型。`y2015` `p195` `LH` `topic:JavaSc
 
 类型和语法，异步和性能。`y2016` `p358` `LH` `topic:JavaScript 异步 `
 
----
+
+
+### Testing
+
+[The Art of Unit Testing, Third Edition ](https://book.douban.com/subject/34944396/)
+
+1-6章观感很好，代码也很细致。后面的章节开始，就很空泛，因此扣一分。总体而言，还是一本JS描述的讲解单元测试的好书。`Y2021` `P325` `LL` `topic: JavaScript 测试`
+
+
 
 ### framework
 
@@ -146,7 +187,13 @@ js 作用域和闭包，this 和对象原型。`y2015` `p195` `LH` `topic:JavaSc
 
 [深入浅出 Vue.js](https://book.douban.com/subject/32581281/)
 
-关于 Vue 2.x 源码设计原理的说明。语言稍微欠缺流畅，部分章节讲解不够透彻。总体而言可以阅读。`y2019` `p282` `LM` `topic:Vue 2.x 源码`
+关于 Vue 2.x 源码设计原理的说明。语言稍微欠缺流畅，部分章节讲解不够透彻。总体而言可以阅读。`y2019` `p282` `LM` `topic:Vue 2.x 原理`
+
+---
+
+[Vue.js设计与实现](https://book.douban.com/subject/35768338/)
+
+主要内容：响应式（effect收集与触发）、渲染（主要是diff这块，LIS最长递增子序列）、组件化、编译器（AST、上下文无关文法）、同构渲染（hydration）。虽然配套代码也有很大的瑕疵，有些书中的代码也没给出，但整体来看依旧是一本难得的Vue入门书籍。行文风格不错，但偶尔会显得不够简洁，有时一个很简单的事情，文字描述了一大段一大段。还好没有出现狂列表格的国产技术书通病，值得好评。`Y2022  ` `P501` `LM` `topic: Vue 3.x 原理`
 
 ---
 
@@ -155,6 +202,11 @@ js 作用域和闭包，this 和对象原型。`y2015` `p195` `LH` `topic:JavaSc
 很好的 React 入门书籍之一。代码规范，语言简洁。描述了版本特性演化、技术选型方案对比。`y2017` `p197` `LL` `topic:React 入门`
 
 ---
+
+[Learning React 2nd ed. ](https://book.douban.com/subject/34887887/)
+
+入门级别。chapter 6-9,10-11为重点内容，赶时间的可以直接读这几个章节。【优点】：代码例子接地气，大多使用github api，亲切感很足。语言朴素直白，没有废话。【缺点】：配套代码仓库很多章节就是一个readme.md，代码示例全在codesandbox，需要一个一个导出到本地运行调试。部分代码存在bug，需要自行修复才能运行。总体而言，是一本很好的React入门书籍。`Y2020` `P300` `LL` `topic: React 入门 `
+
 
 ## CSS
 
@@ -184,7 +236,7 @@ CSS 进阶书籍。娓娓道来的 CSS 发展历史，与各个时代下的局�
 
 CSS 特效作品集。内容实用，融数学、艺术、审美于一身。 `y2016` `p260` `LL` `topic:CSS 特效集`
 
----
+
 
 ## Java
 
@@ -222,6 +274,12 @@ Spring 4.x 版本，内容涵盖面很广。`y2016` `p577` `LL` `topic:Spring 4.
 
 ---
 
+[Java攻略 ](https://book.douban.com/subject/30282531/)
+
+本书讲解内容和质量，给三星。配套代码的质量给4星。这本书聚焦于Java 8&9 的日常开发使用，整体上算得上一本合格的入门书籍。跟这本书定位类似的书籍是《Java 实战》，那本书似乎讲解的更加全面。`Y2018` `P248` `LL` `topic: Java 8&9 基础`
+
+---
+
 [阿里巴巴 Java 开发手册](https://book.douban.com/subject/27605355/)
 
 超级简洁的 Java 开发实践规约，偏实践，可以参考。`Y2018` `P112` `LL` `topic:Java 经验`
@@ -231,6 +289,8 @@ Spring 4.x 版本，内容涵盖面很广。`y2016` `p577` `LL` `topic:Spring 4.
 [Effective Java 中文版（第 3 版）](https://book.douban.com/subject/30412517/)
 
 Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH` `topic:Java 经验`
+
+
 
 ## Go
 
@@ -252,14 +312,25 @@ Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH` `topic:Ja
 
 [Go Web 编程](https://book.douban.com/subject/27204133/)
 
-使用 Go 原生内置库进行讲解，配套代码简单易懂。第二章论坛demo模型很有趣。缺点是现在看来有点过时，部分语言不够精炼，部分代码过于随意。
-`Y2017` `P304`  `LL` `topic:Web 编程`
+使用 Go 原生内置库进行讲解，配套代码简单易懂。第二章论坛demo模型很有趣。缺点是现在看来有点过时，部分语言不够精炼，部分代码过于随意。`Y2017` `P304`  `LL` `topic:Go Web`
+
+---
+
+[100 Go Mistakes and How to Avoid Them](https://book.douban.com/subject/36084407/)
+
+Not having this book will be your 101st mistake if you are a Gopher. 这本书绝不是一本能轻易吸收消化的书籍，虽然本意是Go语言描述，列举了Go开发时常见的100个误区，但是书中论述的这些经验，同样适用于其他编程领域。这本书，可以被视为Effective XXX系列。`Y2022` `P384` `LM` `topic:Go 修炼`
+
+
 
 ## Python
 
 > 人生苦短，我用 python。
 
 ### python basic
+
+[流畅的Python（第2版） ](https://book.douban.com/subject/36342440/)
+
+本书英文版相关网站：https://www.fluentpython.com/about/ 原书内容很好，但是中文翻译版本语句语法错误较为明显，疑似机翻。推荐未入坑的新人尽量看英文原版，不懂的单词就使用工具翻译来阅读。`Y2023` `P736` `LM` `topic: Python 基础`
 
 ---
 
@@ -279,6 +350,19 @@ Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH` `topic:Ja
 
 神作。并发，并行，多线程，多进程，协程，事件轮询，异步等，尽在此书。`Y2021` `P325` `LM` `topic:Python 并发`
 
+---
+
+[Effective Python](https://book.douban.com/subject/35334595/)
+
+实用简洁的Python 开发经验总结。不负Effective系列的名称。`Y2021` `P388` `LM` `topic:Python 修炼`
+
+---
+
+[Python3网络爬虫开发实战 第2版](https://book.douban.com/subject/35681856/)
+
+这本书总分5星的话，我只给3星。部分章节讲解空泛-1分；全书篇幅过长，语言不够精炼-1分。然而市面上目前将爬虫这个主题写的好的书本少之又少，而此书对于学习爬虫来说，它的大纲指明了一个较为全面的学习目标。因此，将此书列入推荐阅读。`Y2021` `P918` `LM` `topic: Python 爬虫`
+
+
 ### python package
 
 ---
@@ -297,13 +381,15 @@ Java 编程的 90 个经验总结，内容较深。`y2018` `p311` `LH` `topic:Ja
 
 手把手教你如何从 0 开始搭建一个神经网络。`Y2018` `P285`  `LL` `topic:深度学习:基础`
 
----
+
 
 ## Web Server
 
 [nginx](https://book.douban.com/subject/26350103/)
 
 简洁的 nginx 入门配置菜谱书。`Y2016` `P250` `LL` `topic:Nginx 基础`
+
+
 
 ## DataBase
 
@@ -355,13 +441,11 @@ Redis 3.x 版本功能说明，含有源码设计原理讲解。`y2014` `p388` `
 
 k8s 入门神书，非常推荐。行文流畅简洁，讲解深入浅出，清晰的架构流程图，知识点覆盖面广，实践性极强。`Y2019` `P592` `LL` `topic:K8s 基础`
 
-## IT Culture
+## Code Quality
 
-> 来，喝了这碗心灵的 ~~ 毒鸡汤 ~~。一般而言，都不喜欢推荐这类书籍，除非它的确有可取之处。
+["Looks Good to Me" ](https://book.douban.com/subject/36505464/)
 
-[黑客与画家](https://book.douban.com/subject/6021440/)
-
-编程是一门艺术创作，自我驱动，以兴趣为导向的创作往往具有惊人的效果。`Y2011` `P264` `LL` `topic:IT 人文杂谈`
+一本不错的代码评审的指导书。`Y2024` `P265` `LL` `topic: 代码评审`
 
 ---
 
@@ -377,17 +461,28 @@ k8s 入门神书，非常推荐。行文流畅简洁，讲解深入浅出，清�
 
 ---
 
-[只是为了好玩](https://book.douban.com/subject/25930025/)
-
-生活是为了追求快乐。`y2014` `p255` `LL` `topic:IT 人文杂谈`
-
----
-
 [大话重构](https://book.douban.com/subject/25853677/)
 
 语言接地气，Java 语言描述来讲解重构。`y2014` `p268` `LL` `topic:代码重构`
 
+
+
+## IT Culture
+
+> 来，喝了这碗心灵的 ~~ 毒鸡汤 ~~。一般而言，都不喜欢推荐这类书籍，除非它的确有可取之处。
+
+[黑客与画家](https://book.douban.com/subject/6021440/)
+
+编程是一门艺术创作，自我驱动，以兴趣为导向的创作往往具有惊人的效果。`Y2011` `P264` `LL` `topic:IT 人文杂谈`
+
+
 ---
+
+[只是为了好玩](https://book.douban.com/subject/25930025/)
+
+生活是为了追求快乐。`y2014` `p255` `LL` `topic:IT 人文杂谈`
+
+
 
 ## API Design
 
@@ -396,3 +491,38 @@ k8s 入门神书，非常推荐。行文流畅简洁，讲解深入浅出，清�
 [The Design of Web APIs](https://book.douban.com/subject/34847654/)
 
 关于 Web API 设计细致的演化讲解。`Y2019` `P392`  `LL` `topic:API设计`
+
+
+
+## Game Development
+
+> 游戏开发。暂时将这部分推荐放于此仓库，后续如果膨胀，应该迁移到game-dev-center。
+
+[游戏的设计与开发](https://book.douban.com/subject/1246350/)
+
+4星。这本书极具前瞻性（它是03年的），而且内容涵盖面很广，涉及了游戏开发的各个方面。语言描述点到即止，不拖泥带水，因此篇幅仅300多页。它是一本很好的游戏开发理论指导书。最后，引用书中这段话作为结束——"我们的少年时代都做过很多梦，很多温馨的梦。在梦里梦见所爱但现实中得不到的东西，和所爱但现实中怯于亲近的人。但每次从梦中醒来时，又要忍受那种得到后又失去的怅惘和失落。但少年的希望总是有，少年总是坚信他的梦将来可以成为现实。于是虽然生活本身并不如意，少年的梦还是做下去，不断地做下去。直到随着年龄的增长，少年明白梦已经不太可能成为现实了。他的梦也就逐渐减少，乃至消亡了。而游戏是少年的梦的延续，它保持我们梦想的能力，短暂延缓它的消亡"。`y2003` `P476` `LL` `topic: 游戏开发科普`
+
+
+## Writing
+
+> 写作相关。
+
+[英语写作手册：风格的要素 ](https://book.douban.com/subject/26921052/)
+
+
+4星。篇幅简短实用。`Y2016` `P125` `LL` `topic: 英文写作风格`
+
+
+## Thinking
+
+> 思考人生与生活。
+
+[心流——最优体验心理学](https://book.douban.com/subject/27186106/)
+
+行动式生活、内心的秩序。这本书其实讲的是如何自得其乐，或者发现人生的快乐。`Y2017` `P381` `LL` `topic: 心理学`
+
+---
+
+[People Powered](https://book.douban.com/subject/34799637/)
+
+社区应该是人们有共同需求或兴趣的中心。社区有共同的利益追求。此书电子版仅190页，很薄，因此语言简洁，没有废话。书中有些主题的分点论述很好，得到了启发。总之，这是一本关于互联网社区构建的好书。`y2019` `P320` `LL` `topic: 社区建设`
