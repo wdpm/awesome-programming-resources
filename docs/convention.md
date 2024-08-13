@@ -26,3 +26,7 @@
 
 - manning 出版社的 in action 系列一直是某种技术/语言入门的首选，大部分质量都很好。
 - effective 系列一般是进阶书籍，需要有一定的积累和经验，才能引发认同和共鸣。非常适合回顾和提升。
+
+## 参考源
+
+- [豆瓣——我读过的书](https://book.douban.com/people/wdpm/collect?start=0&sort=time&rating=all&filter=all&mode=list)

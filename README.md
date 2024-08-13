@@ -71,9 +71,19 @@ awesome programming resources.| 令人惊叹的编程资源。
             <img src="https://img.shields.io/badge/📅year-2017-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-420-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
-    <img src="https://img.shields.io/badge/topic-Git版本控制 -green?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Git 版本控制 -green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     Git 版本控制的入门书，由浅入深，可以酌情阅读。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/27046286/">Git团队协作 (豆瓣) </a>
+            <img src="https://img.shields.io/badge/📅year-2017-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-268-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Git 工作流-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    各个章节之间的质量良莠不齐、语言不够简洁精炼、内容重复度较高。比较有价值的是第6、7章，推荐重点关注，其他章节内容一般。
 </details>              
 ## Open Source
 <details>
@@ -97,6 +107,16 @@ awesome programming resources.| 令人惊叹的编程资源。
     <img src="https://img.shields.io/badge/topic-Electron-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     关于 Electron 实战的一本务实落地的书籍。配套代码基本可运行。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/36647816/">Create GUI Applications with Python & Qt6 (PySide6 Edition)</a>
+            <img src="https://img.shields.io/badge/📅year-2022-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-812-6741d9?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- PySide6 应用开发-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    【缺点】：1.全书800多页，篇幅冗长，知识点杂碎，重点不够突出；2.有些关键代码直接带过，缺乏必要的解释和说明。 【优点】：1.知识点比较全面，基本上很多关于UI开发的点都列举了；2.有配套的开源代码，代码基本上可以在 PySide6 版本下运行，方便读者随书实践。 整体上而言，这本书依旧是一本关于PySide6界面开发的好书，值得一读。最后一章的扫雷小游戏是一个很好却稍微复杂的demo，值得研究理解。
 </details>              
 ### Mobile App
 ## DevOps
@@ -529,6 +549,27 @@ awesome programming resources.| 令人惊叹的编程资源。
 </details>              
 <details>
     <summary>
+        <a href="https://book.douban.com/subject/26381341/">Python Cookbook（第3版）中文版 </a>
+            <img src="https://img.shields.io/badge/📅year-2015-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-684-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Python 修炼-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    中文翻译不够优秀+此书内容少部分过时扣一分。这本书应该出第4版了。中文翻译参考：https://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html 。 8.23“要提领（dereference）一个弱引用，可以像函数一样来调用它。” 这里翻译不够准确，dereference应该翻译为解引用。本书的内容深度还是有的，部分小节的代码特别长，而且偏底层，需要好好啃。它是一本关于python经验总结的进阶书籍。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35563798/">Python Object-Oriented Programming</a>
+            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-714-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- Python OOP-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    . 1-10章都是讲述python基础的，这部分写的很不错，以一个KNN的例子贯穿了全程，非常接地气。 11 & 12 章一共描述了12种设计模式，值得参考。13和14章分别是测试和并发，这两个主题不是一章的篇幅就能讲明白的，我认为是这本书的败笔，可以直接删掉。
+</details>              
+### python spider
+<details>
+    <summary>
         <a href="https://book.douban.com/subject/35681856/">Python3网络爬虫开发实战 第2版</a>
             <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-918-6741d9?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -536,6 +577,27 @@ awesome programming resources.| 令人惊叹的编程资源。
     <img src="https://img.shields.io/badge/topic- Python 爬虫-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     这本书总分5星的话，我只给3星。部分章节讲解空泛-1分；全书篇幅过长，语言不够精炼-1分。然而市面上目前将爬虫这个主题写的好的书本少之又少，而此书对于学习爬虫来说，它的大纲指明了一个较为全面的学习目标。因此，将此书列入推荐阅读。
+</details>              
+### python framework
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/34960757/">The Well-Grounded Python Developer </a>
+            <img src="https://img.shields.io/badge/📅year-2023-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-375-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- flask 应用-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    3星评价。非常偏入门。flask 入门使用？《基于flask的blog系统设计》？看完这本书后，将ch_11的源码标注一下，是一个不错的参考。比较值得留意的一点是，帖子和评论关系的设计，本书推荐了自引用+CTE来处理层级嵌套关系，我觉得反而变复杂了，但是，不可否认，这的确也是一种可行的实践。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/30293851/">Flask Web开发</a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-228-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- flask 应用-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    flask入门的极佳选择。篇幅简短，内容充实，逐步介绍了一个blog系统的构建。此外，末尾的部署这一个章节也非常不错。
 </details>              
 ### python package
 <details>
@@ -710,6 +772,37 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     生活是为了追求快乐。
 </details>              
+关于程序重构的这部分讲的非常经典，给我留下了很深的印象，讲解得行云流水。其余部分也还可以。是一本不错的IT杂谈书籍。
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/30271075/">奔跑吧，程序员 </a>
+            <img src="https://img.shields.io/badge/📅year-2018-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-376-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    None
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/4923179/">我编程，我快乐 </a>
+            <img src="https://img.shields.io/badge/📅year-2010-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-202-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    4星。作者以两种身份：音乐人和程序员的身份论述了对编程职业的思考和探索。每一小章节都给出了一个实际可实施的小练习作为行动指南。但是，缺点也很明显，很多理论并不是那么接地气，水土不服。整体而言，部分观点值得参考，有一定启发。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/4924164/">软件开发者路线图</a>
+            <img src="https://img.shields.io/badge/📅year-2010-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-185-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 软件开发职业规划-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    当之无愧的神作。软件开发，学徒到师傅，漫漫长路。在工作需求和自我兴趣驱动之间摇摆抉择，这是一本既看到现实的无奈，依旧像阳光一样给你希望的指导书。不要被速成主义的塞壬歌声诱惑，要坚守阵地。 “只求最差”——寻找一个可以让你成长的团队；“质脆玩具”——跨出技能边界来独立构建完整的软件项目。「学徒是那些愿意接受初级职位从而使学习机会最大化的人，而不是那些往经济收入最大化的职位上拼命攀爬，慢一分钟都不行的人。」空杯心态，漫漫长路，自我评估，持久学习，坚持阅读。附录A的列表整理的很好，非常简要，方便查阅。
+</details>              
 ## API Design
 > 鲜有人认真研究的 API Design 领域。
 <details>
@@ -733,6 +826,26 @@ awesome programming resources.| 令人惊叹的编程资源。
     <img src="https://img.shields.io/badge/topic- 游戏开发科普-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
     4星。这本书极具前瞻性（它是03年的），而且内容涵盖面很广，涉及了游戏开发的各个方面。语言描述点到即止，不拖泥带水，因此篇幅仅300多页。它是一本很好的游戏开发理论指导书。最后，引用书中这段话作为结束——"我们的少年时代都做过很多梦，很多温馨的梦。在梦里梦见所爱但现实中得不到的东西，和所爱但现实中怯于亲近的人。但每次从梦中醒来时，又要忍受那种得到后又失去的怅惘和失落。但少年的希望总是有，少年总是坚信他的梦将来可以成为现实。于是虽然生活本身并不如意，少年的梦还是做下去，不断地做下去。直到随着年龄的增长，少年明白梦已经不太可能成为现实了。他的梦也就逐渐减少，乃至消亡了。而游戏是少年的梦的延续，它保持我们梦想的能力，短暂延缓它的消亡"。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/35587198/">百万在线</a>
+            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-339-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 游戏开发经验-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    最多给3星评价。3,4,8,9,10,11这几章还算言之有物。缺点：水图和字数太多，知识密度过低。内容深度也比较浅。但是，国内写这个方向的书籍似乎不是很多，作为游戏开发科普入门而言，此书也还算可以。最后，书名“百万在线”名不副实，还是务实一点吧。
+</details>              
+<details>
+    <summary>
+        <a href="https://book.douban.com/subject/26880704/">游戏编程模式</a>
+            <img src="https://img.shields.io/badge/📅year-2016-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-306-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic- 游戏开发模式-green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    此书基于游戏开发情境，对传统GoF的设计模式进行了独特的阐述。每一个设计模式都是以固定的行文结构进行说明：动机、设计模式概述、使用情境、使用须知、示例代码（C++描述）、设计决策、参考。虽然并没有进入更深入的探讨，但是对于扩展对设计模式的认识和理解，应当是有益的。值得一读。
 </details>              
 ## Writing
 > 写作相关。
