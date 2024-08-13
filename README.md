@@ -772,7 +772,6 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     生活是为了追求快乐。
 </details>              
-关于程序重构的这部分讲的非常经典，给我留下了很深的印象，讲解得行云流水。其余部分也还可以。是一本不错的IT杂谈书籍。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30271075/">奔跑吧，程序员 </a>
@@ -781,7 +780,7 @@ awesome programming resources.| 令人惊叹的编程资源。
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
     </summary>
-    None
+    关于程序重构的这部分讲的非常经典，给我留下了很深的印象，讲解得行云流水。其余部分也还可以。是一本不错的IT杂谈书籍。
 </details>              
 <details>
     <summary>
