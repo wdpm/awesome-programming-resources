@@ -36,7 +36,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/33444625/">数学女孩 4</a>
-            <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2019-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-504-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- 随机算法 -green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -203,7 +203,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/26264736/">代码本色：用编程模拟自然系统</a>
-            <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2014-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-401-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- 自然模拟 -green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -275,11 +275,21 @@ awesome programming resources.| 令人惊叹的编程资源。
     </summary>
     类型和语法，异步和性能。
 </details>              
+<details>
+    <summary>
+        <a href="https://github.com/wesbos/JavaScript30">30 Day Vanilla JS Challenge</a>
+            <img src="https://img.shields.io/badge/📅year-2016-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🗐pages-/-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
+    <img src="https://img.shields.io/badge/topic-JavaScript 练手小案例 -green?style=flat-square" alt="year" style="vertical-align: -3px">
+    </summary>
+    一个关注度集中的前端编程小案例合集。值得留意的案例为 01-03,05-06,08,10-16,19-20,22-24,27-30,其他序号的案例为JS纯逻辑编程，没有必要。相关中文教程参考：https://github.com/soyaine/JavaScript30 。
+</details>              
 ### Testing
 <details>
     <summary>
         <a href="https://book.douban.com/subject/34944396/">The Art of Unit Testing, Third Edition </a>
-            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2021-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-325-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- JavaScript 测试-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -291,7 +301,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/32581281/">深入浅出 Vue.js</a>
-            <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2019-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-282-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Vue 2.x 原理-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -530,7 +540,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35219949/">Python Concurrency with asyncio</a>
-            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2021-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-325-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Python 并发-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -540,7 +550,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35334595/">Effective Python</a>
-            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2021-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-388-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Python 修炼-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -560,7 +570,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35563798/">Python Object-Oriented Programming</a>
-            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2021-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-714-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- Python OOP-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -571,7 +581,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35681856/">Python3网络爬虫开发实战 第2版</a>
-            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2021-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-918-6741d9?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-M-20c997?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- Python 爬虫-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -659,7 +669,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/25900156/">Redis 设计与实现</a>
-            <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2014-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-388-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-H-099268?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-Redis 基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -702,7 +712,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/30418855/">Kubernetes in Action 中文版</a>
-            <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2019-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-592-7950f2?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-K8s 基础-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -743,7 +753,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/25853677/">大话重构</a>
-            <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2014-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-268-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-代码重构-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -765,7 +775,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/25930025/">只是为了好玩</a>
-            <img src="https://img.shields.io/badge/📅year-2014-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2014-fcc2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-255-d0bfff?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-IT 人文杂谈-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -807,7 +817,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/34847654/">The Design of Web APIs</a>
-            <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2019-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-392-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic-API设计-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -829,7 +839,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/35587198/">百万在线</a>
-            <img src="https://img.shields.io/badge/📅year-2021-c2255c?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2021-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-339-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- 游戏开发经验-green?style=flat-square" alt="year" style="vertical-align: -3px">
@@ -873,7 +883,7 @@ awesome programming resources.| 令人惊叹的编程资源。
 <details>
     <summary>
         <a href="https://book.douban.com/subject/34799637/">People Powered</a>
-            <img src="https://img.shields.io/badge/📅year-2019-e64980?style=flat-square" alt="year" style="vertical-align: -3px">
+            <img src="https://img.shields.io/badge/📅year-2019-f783ac?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🗐pages-320-9775fa?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/🤔level-L-96f2d7?style=flat-square" alt="year" style="vertical-align: -3px">
     <img src="https://img.shields.io/badge/topic- 社区建设-green?style=flat-square" alt="year" style="vertical-align: -3px">

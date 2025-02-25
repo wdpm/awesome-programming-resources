@@ -181,7 +181,11 @@ js 作用域和闭包，this 和对象原型。`y2015` `p195` `LH` `topic:JavaSc
 
 类型和语法，异步和性能。`y2016` `p358` `LH` `topic:JavaScript 异步 `
 
+---
 
+[30 Day Vanilla JS Challenge](https://github.com/wesbos/JavaScript30)
+
+一个关注度集中的前端编程小案例合集。值得留意的案例为 01-03,05-06,08,10-16,19-20,22-24,27-30,其他序号的案例为JS纯逻辑编程，没有必要。相关中文教程参考：https://github.com/soyaine/JavaScript30 。`y2016` `p/` `LL` `topic:JavaScript 练手小案例 `
 
 ### Testing
 
